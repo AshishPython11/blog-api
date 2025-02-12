@@ -14,13 +14,13 @@ A **FastAPI-powered** Blog API with MongoDB for handling blog posts and comments
 
 ## Setup & Installation
 
-### ** 1. First, install all required packages using **`uv`** (or `pip` if preferred):**
+### **1. First, install all required packages using **`uv`** (or `pip` if preferred):**
 
 ```sh
 uv pip install -r requirements.txt
 ```
 
-### ** 2. Using Local MongoDB**
+### **2. Using Local MongoDB**
 - Install MongoDB Community Server 
 - Start MongoDB:
 ```sh
@@ -33,14 +33,14 @@ MONGO_URI = "mongodb://localhost:27017"**
 
 
 
-### ** 3. Run the FastAPI Server**
+### **3. Run the FastAPI Server**
 ```sh
 uvicorn main:app --reload
 ```
 The API will be available at:  
 🔹 **http://127.0.0.1:8000**
 
-### ** 4. Running Tests**
+### **4. Running Tests**
 - Run the Pytest tests to verify functionality:
 ```sh
 pytest tests -v
