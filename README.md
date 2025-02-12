@@ -28,7 +28,7 @@ mongod --dbpath C:\data\db
 ```
 - Use the local MongoDB URI in db.py:
 ```sh
-MONGO_URI = "mongodb://localhost:27017"**
+MONGO_URI = "mongodb://localhost:27017"
 ```
 
 
